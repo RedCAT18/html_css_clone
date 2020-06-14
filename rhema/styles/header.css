@@ -1,0 +1,119 @@
+.header {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.header__section {
+  width: 100%;
+}
+
+.uppder__section {
+  background-color: #181818;
+}
+
+.upper__section-box,
+.lower__section-box {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.upper__nav {
+  padding: 10px;
+}
+
+.upper__nav-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.upper__nav-item {
+  color: #fff;
+  font-size: 12px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.upper__nav-item:hover {
+  color: #ff932d;
+}
+
+.upper__nav-item img {
+  height: 18px;
+  margin-right: 5px;
+}
+
+.lower__section {
+  background-color: #fff;
+  border-bottom: 2px solid #49b5a1;
+}
+
+.lower__nav {
+  height: 60px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 10fr 3fr;
+}
+
+.lower__nav-box {
+  height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.lower__nav-item {
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #49b5a1;
+  text-transform: uppercase;
+  font-size: 9pt;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.lower__nav-item:hover {
+  background-color: #49b5a1;
+  color: #fff;
+}
+
+.lower__nav-icon {
+  justify-self: end;
+  height: 100%;
+}
+
+.icon-facebook {
+  width: 40px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+
+.icon-facebook:hover {
+  opacity: 0.5;
+}
+
+.lower__nav-alt {
+  height: 60px;
+  display: none;
+}
+
+.nav__alt-box {
+  justify-content: flex-end;
+}
+
+.alt__box-icon {
+  display: flex;
+  height: 60px;
+  padding-right: 30px;
+}
+
+.alt-icon {
+  font-family: Fontawesome;
+  color: rgb(100, 100, 100);
+  font-size: 18pt;
+  cursor: pointer;
+}
